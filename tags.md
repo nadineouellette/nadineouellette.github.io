@@ -1,5 +1,5 @@
 ---
 layout: tags
-title: Tags
+title: Research Team
 descriptions: Blog posts by tag
 ---
