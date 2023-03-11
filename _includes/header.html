@@ -5,9 +5,9 @@
     <nav>
       <ul>
         {% case current[0] %}
-        <!-- home -->
+        <!-- About Me -->
         {% when none %}
-        <li class="current">Home</li>
+        <li class="current">About Me</li>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
             <li class="btn-nav">Publications</li>
@@ -29,7 +29,7 @@
         <!-- publications -->
         {% when 'publications' %}
         <a href="{{ '/'' | relative_url }}">
-          <li class="btn-nav">Home</li>
+          <li class="btn-nav">About Me</li>
         </a>
         <li class="current">Publications</li>
         {% if site.presentations %}
@@ -48,7 +48,7 @@
         <!-- presentations -->
         {% when 'presentations' %}
         <a href="{{ '/'' | relative_url }}">
-          <li class="btn-nav">Home</li>
+          <li class="btn-nav">About Me</li>
         </a>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
@@ -67,7 +67,7 @@
         <!-- blog -->
         {% when 'blog' %}
         <a href="{{ '/' | relative_url }}">
-          <li class="btn-nav">Home</li>
+          <li class="btn-nav">About Me</li>
         </a>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
@@ -86,7 +86,7 @@
         <!-- tags -->
         {% when 'tags' %}
         <a href="{{ '/' | relative_url }}">
-          <li class="btn-nav">Home</li>
+          <li class="btn-nav">About Me</li>
         </a>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
@@ -105,7 +105,7 @@
         {% else %}
         <!-- others -->
         <a href="{{ '/' | relative_url }}">
-          <li class="btn-nav">Home</li>
+          <li class="btn-nav">About Me</li>
         </a>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
