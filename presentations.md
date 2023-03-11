@@ -1,5 +1,5 @@
 ---
 layout: presentations
-title: Presentations
+title: Talks
 description: List of held presentations
 ---
