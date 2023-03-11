@@ -1,7 +1,7 @@
 image: assets/img/IMAGE.jpeg
 username: Nadine Ouellette
 description: Associate Professor, Faculty of Arts and Science - Department of Demography
-webpage: "https://demo.umontreal.ca/repertoire-departement/professeurs/professeur/in/in29461/sg/Nadine%20Ouellette/"
+webpage: https://demo.umontreal.ca/repertoire-departement/professeurs/professeur/in/in29461/sg/Nadine%20Ouellette/
 #experience: # Remove for hiding the experience section
 #  - start: 2017-05-03
 #    end: 2018-05-06
