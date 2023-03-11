@@ -27,15 +27,15 @@ social:
 locale: en_GB
 
 # Page Settings
-#theme_settings:
- # title: Grape Academic Theme
+theme_settings:
+  title: Grape Academic Theme
 
- # experience_title: EXPERIENCE
- # interests_title: RESEARCH INTERESTS
- # skills_title: SKILLS
- # awards_title: AWARDS
-#  projects_title: PROJECTS
- # recentpubs_title: RECENT PUBLICATIONS
+  experience_title: EXPERIENCE
+  interests_title: RESEARCH INTERESTS
+  skills_title: SKILLS
+  awards_title: AWARDS
+  projects_title: PROJECTS
+  recentpubs_title: RECENT PUBLICATIONS
 
 # Pagination
 paginate: 5
