@@ -5,9 +5,9 @@
     <nav>
       <ul>
         {% case current[0] %}
-        <!-- About Me -->
+        <!-- home -->
         {% when none %}
-        <li class="current">About Me</li>
+        <li class="current">Home</li>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
             <li class="btn-nav">Publications</li>
@@ -29,7 +29,7 @@
         <!-- publications -->
         {% when 'publications' %}
         <a href="{{ '/'' | relative_url }}">
-          <li class="btn-nav">About Me</li>
+          <li class="btn-nav">Home</li>
         </a>
         <li class="current">Publications</li>
         {% if site.presentations %}
@@ -39,7 +39,7 @@
         {% endif %}
         {% if site.blog %}
           <a href="{{ '/blog' | relative_url }}">
-            <li class="btn-nav">Blog</li>
+            <li class="btn-nav">Research Team</li>
           </a>
           <a href="{{ '/tags' | relative_url }}">
             <li class="btn-nav">Tags</li>
@@ -48,7 +48,7 @@
         <!-- presentations -->
         {% when 'presentations' %}
         <a href="{{ '/'' | relative_url }}">
-          <li class="btn-nav">About Me</li>
+          <li class="btn-nav">Home</li>
         </a>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
@@ -67,7 +67,7 @@
         <!-- blog -->
         {% when 'blog' %}
         <a href="{{ '/' | relative_url }}">
-          <li class="btn-nav">About Me</li>
+          <li class="btn-nav">Home</li>
         </a>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
@@ -79,14 +79,14 @@
             <li class="btn-nav">Presentations</li>
           </a>
         {% endif %}
-        <li class="current">Blog</li>
+        <li class="current">Research Team</li>
         <a href="{{ '/tags' | relative_url }}">
           <li class="btn-nav">Tags</li>
         </a>
         <!-- tags -->
         {% when 'tags' %}
         <a href="{{ '/' | relative_url }}">
-          <li class="btn-nav">About Me</li>
+          <li class="btn-nav">Home</li>
         </a>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
@@ -99,13 +99,13 @@
           </a>
         {% endif %}
           <a href="{{ '/blog' | relative_url }}">
-            <li class="btn-nav">Blog</li>
+            <li class="btn-nav">Research Team</li>
           </a>
           <li class="current">Tags</li>
         {% else %}
         <!-- others -->
         <a href="{{ '/' | relative_url }}">
-          <li class="btn-nav">About Me</li>
+          <li class="btn-nav">Home</li>
         </a>
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
@@ -119,7 +119,7 @@
         {% endif %}
         {% if site.blog %}
           <a href="{{ '/blog' | relative_url }}">
-            <li class="current btn-nav">Blog</li>
+            <li class="current btn-nav">Research Team</li>
           </a>
           <a href="{{ '/tags' | relative_url }}">
             <li class="btn-nav">Tags</li>
