@@ -1,12 +1,16 @@
 - presentation:
-    title: A nice presentation
-    event: Fancy conference
-    date: 05/2022
-    comment: This is some comment text that can do _Markdown_
+    title: Titre de la présentation
+    event: Population Association of America
+    date: 03/2023
+    comment: Nom des co-autheurs?
     slides: https://www.google.com # potential link to slides
     hub: example-hub # potential hub page to link to
     recording: https://www.youtube.com
 - presentation:
-    title: A second presentation
-    event: Another conference
-    date: 03/2022
+    title: Deuxième présentation
+    event: Association des démographes du Québec
+    date: 03/2023
+    comment: Nom des co-autheurs?
+    slides: https://www.google.com # potential link to slides
+    hub: example-hub # potential hub page to link to
+    recording: https://www.youtube.com
