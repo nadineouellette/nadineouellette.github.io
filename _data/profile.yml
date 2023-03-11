@@ -1,4 +1,4 @@
-image: assets/img/smile.png
+image: assets/img/IMAGE.jpeg
 username: Nadine Ouellette
 description: Associate Professor, Faculty of Arts and Science - Department of Demography
 webpage: https://nadineouellette.github.io
@@ -13,7 +13,7 @@ webpage: https://nadineouellette.github.io
 #  - skill: HTML5 & CSS
 #    value: 85  # Percent value
 social:
-  email:  # Full email address, e.g. "nadineouellette@umontreal.ca"
+  email: "nadine.ouellette@umontreal.ca"
   orcid: 
   scholar: 
   publons: 
